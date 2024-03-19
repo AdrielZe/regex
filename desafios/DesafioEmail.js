@@ -7,7 +7,10 @@ O e-mail dos convidados são:
  - otavio.silveira@hotmail.com
  - kmwn18_02@gmail.com
  - juliano.ramos@yahoo.com
+ - juliano.ramos@yahoo.br
 `
 const regex = /\w+(\D\w+)?@\w+\D\w+\D\w+/g
 
+
 console.log(texto.match(regex));
+
